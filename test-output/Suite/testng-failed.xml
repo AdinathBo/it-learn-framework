@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.itlearn.testcases.DashBoardTestCase">
+      <class name="com.itlearn.testcases.PaymentTestCase">
         <methods>
           <include name="setUp"/>
-          <include name="testcourses"/>
           <include name="tearDown"/>
+          <include name="testcourses"/>
         </methods>
-      </class> <!-- com.itlearn.testcases.DashBoardTestCase -->
+      </class> <!-- com.itlearn.testcases.PaymentTestCase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
